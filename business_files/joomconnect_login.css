@@ -1,0 +1,71 @@
+.jc_vertical_form .username-field,
+.jc_vertical_form .password-field{
+	margin:0 0 6px 0;
+}
+.jc_vertical_form .username-field label,
+.jc_vertical_form .password-field label{
+	display:block;
+	min-width:100px;
+}
+.jc_horizontal_form .username-field label,
+.jc_horizontal_form .password-field label{
+	display:block;
+	min-width:100px;
+	float:left;
+}
+.jc_popup_form .username-field label,
+.jc_popup_form .password-field label{
+	display:block;
+	min-width:100px;
+	float:left;
+}
+
+.jc_vertical_form ul,
+.jc_horizontal_form ul{
+	list-style:none;
+	padding:0;
+}
+.jc_popup_form .submit-button,
+.jc_vertical_form .submit-button{
+	margin-top:10px;
+}
+.jc_horizontal_form .username-field, .jc_horizontal_form .password-field {
+	float:left;
+}
+.jc_horizontal_form .password-field {
+	margin:0 10px 0 10px;
+	clear:right;
+}
+.jc_horizontal_form ul li{
+	float:left;
+	margin-right:7px;
+}
+.jc_horizontal_form .jc-rememberme{
+	float:right;
+}
+.jc_popup_form{
+	display:none;
+	z-index:99999;
+}
+.ui-widget-overlay {
+    background:#000000 !important;
+    opacity: 0.8 !important;
+	filter:alpha(opacity=80) !important;
+}
+
+
+
+.tab-container ul{list-stle:none;}
+.etabs { margin: 0; padding: 0;  }
+.tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+.tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
+.tab a:hover { text-decoration: underline; }
+.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+.tab a.active { font-weight: bold; }
+.tab-container .panel-container { border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+
+.com .password-field,.com .username-field,.com .jc-rememberme,.com .submit-button,.com .jc-login-links{margin:5px !important;}
+.com .jc_password{margin-left:3px;}
+.com .jc-login-links ul li{padding-left:0px !important;}
+.com .jc_logout_form .button,.com .jc_support_link .button{background: #000 none repeat scroll 0 0; border: 1px solid #000; padding: 6px 12px;}
+.com .jc_logout_form{padding-bottom:5px;}

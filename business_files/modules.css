@@ -1,0 +1,368 @@
+/* Joomconnect User Widget module css starts*/
+div.djcuwc{ margin: 0; padding: 0; background-color: transparent; width: 100%; height: 25px; min-height: 25px; border: none; position: fixed; display: block; box-sizing: border-box; overflow: visible; z-index: 99989; }
+div.djcuw-clean{ margin: 0; padding: 0; width: 100%; height: auto; }
+.djcuw-clean div.djcuw-content{ margin: 0; padding: 0; background-color: #fff; width: 100%; height: auto; text-align: right; }
+.djcuwc.pos-left div.djcuw-content{/*text-align:right;*/}
+.djcuwc.pos-right div.djcuw-content{text-align:left;}
+.djcuwc.pos-top div.trigger-l, 
+.djcuwc.pos-top div.trigger-r {float: left;height: 24px;width: 31px;}
+.djcuwc.pos-top div.trigger-m {color: #FFFFFF;float: left;font-size: 11px;height: 24px;line-height: 23px;overflow: hidden;padding-left: 10px;padding-right: 10px;text-align: center;width: auto;}
+.djcuwc.pos-top .trigger-l{background: url(images/widget/default/trigger_l.png) repeat-x scroll 100% 0 transparent;}
+.djcuwc.pos-top .trigger-r{background: url(images/widget/default/trigger_r.png) repeat-x scroll 100% 0 transparent;}
+.djcuwc.pos-top .trigger-m{background: url(images/widget/default/trigger_m.png) repeat-x scroll 100% 0 transparent;}
+#toppanelarrow-left{
+    background: url("images/widget/widgetarrow.gif") no-repeat scroll 5px 10px  transparent;
+    height: 10px;
+    left: 30px;
+    padding: 4px 10px 5px 5px;
+	margin: -10px 0px 0px -15px;
+    top: 11px;
+    width: 5px;
+}
+ #toppanelarrow {
+    background: url("images/widget/widgetarrow.gif") no-repeat scroll 5px 10px transparent;
+    height: 10px;
+    padding: 5px 10px 5px 5px;
+	margin: -10px 0px 0px 0px;
+    position: absolute;
+    top: 11px;
+    width: 5px;
+}
+.to_top{
+ background: url("images/widget/widgetarrow-up.gif") no-repeat scroll 5px 10px transparent !important;
+}
+.djcuwc.pos-top div.trigger {
+    cursor: pointer;
+	position: relative !important;
+}
+
+div.djcuwc .jc_vertical_form .username-field,
+div.djcuwc .jc_vertical_form .password-field{
+	margin:0 0 6px 0;
+}
+div.djcuwc .jc_vertical_form .username-field label,
+div.djcuwc .jc_vertical_form .password-field label{
+	/*display:none !important;*/
+	min-width:100px;
+}
+div.djcuwc .jc_horizontal_form .username-field label,
+div.djcuwc .jc_horizontal_form .password-field label{
+	/*display:none !important;*/
+	min-width:100px;
+	float:left;
+}
+div.djcuwc .jc_popup_form .username-field label,
+div.djcuwc .jc_popup_form .password-field label{
+	display:block;
+	min-width:100px;
+	float:left;
+}
+
+div.djcuwc .jc_vertical_form ul,
+div.djcuwc .jc_horizontal_form ul{
+	list-style:none;
+	padding:0;
+}
+div.djcuwc .jc_popup_form .submit-button,
+div.djcuwc .jc_vertical_form .submit-button{
+	margin-top:10px;
+}
+div.djcuwc .jc_horizontal_form .username-field, div.djcuwc .jc_horizontal_form .password-field {
+	float:left;
+}
+div.djcuwc .jc_horizontal_form .password-field {
+	margin:0 10px 0 10px;
+	clear:right;
+}
+div.djcuwc .jc_horizontal_form ul li{
+	float:left;
+	margin-right:7px;
+}
+div.djcuwc .jc_horizontal_form .jc-rememberme{
+	float:right;
+	clear: both;
+}
+div.djcuwc .jc_popup_form{
+	display:none;
+	z-index:99999;
+}
+div.djcuwc .jc-login-links li, 
+div.djcuwc .jc-login-links li a,
+div.djcuwc .jc-rememberme{
+	font-size:11px !important;
+}
+.ui-widget-overlay {
+    background:#000000 !important;
+    opacity: 0.8 !important;
+	filter:alpha(opacity=80) !important;
+}
+
+div.djcuwc ul.djcuw-menu{ margin:0;}
+div.djcuwc ul.djcuw-menu li{list-style:none; float:left; min-width:45px; margin:0 5px;max-height:75px;text-align: center;}
+div.djcuwc ul.djcuw-menu li img{max-width:60px;}
+div.djcuwc ul.djcuw-menu li span{clear: both;display: block;font-size: 11px !important;padding: 0 5px !important;}
+
+.djcuwc.pos-top .uwc-code-d1, .djcuwc.pos-top .uwc-code-d2{padding:10px;}
+.djcuwc.pos-top .uwc-code-d1.uwc-pos-top, .djcuwc.pos-top .uwc-code-d2.uwc-pos-top,
+.djcuwc.pos-top .uwc-code-d1.uwc-pos-bottom, .djcuwc.pos-top .uwc-code-d2.uwc-pos-bottom{margin: 0 20px 25px;}
+.djcuwc.pos-right .uwc-code-d2.uwc-pos-bottom, .djcuwc.pos-right .uwc-code-d2.uwc-pos-top{clear:both;padding-top: 20px;}
+.djcuwc.pos-left .uwc-code-d2.uwc-pos-bottom, .djcuwc.pos-left .uwc-code-d2.uwc-pos-top{clear:both;padding-top: 20px;}
+.uwc-code-d1.uwc-pos-top,.uwc-code-d2.uwc-pos-top{width:100%;}
+.uwc-code-d1.uwc-pos-bottom,.uwc-code-d2.uwc-pos-bottom{width:100%;}
+.uwc-code-d1.uwc-pos-left,.uwc-code-d2.uwc-pos-left{float:right; width:47%;}
+.uwc-code-d1.uwc-pos-right,.uwc-code-d2.uwc-pos-right{float:left; width:37%;}.uwc-pos-right .jc_horizontal_form {float: right;}
+
+/* Start - JoomConnect User Widget Media Queries*/
+/* Start Media Query Standard Desktop */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.djcuwc-panel div.djcuw-content {
+		min-width: 960px !important;
+		width: 960px !important;
+	}    		
+	.pos-top .uwc-code-d1.uwc-pos-right {
+		width: auto;
+		float: left;
+	}    
+	.pos-top .uwc-code-d2.uwc-pos-right {
+		width: auto;
+		min-width: initial !important;
+		float: right !important;
+		margin-right: 10px;
+	} 
+}
+/* Start Media Query Large Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.djcuwc-panel div.djcuw-content {
+		min-width: 100% !important;
+		width: 100% !important;
+	}   
+	.pos-top .uwc-code-d1.uwc-pos-right {
+		width: auto;
+		float: left;
+	}    
+	.pos-top .uwc-code-d2.uwc-pos-right {
+		width: auto;
+		min-width: initial !important;
+		float: right !important;
+		margin-right: 10px;
+	}
+}
+/* Start Media Query  Small Tablet / Large Phone */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.djcuwc-panel div.djcuw-content {
+		min-width: 100% !important;
+		width: 100% !important;
+	}     		
+	.pos-top .uwc-code-d1.uwc-pos-right {
+		width: auto;
+		float: left;
+	}    
+	.pos-top .uwc-code-d2.uwc-pos-right {
+		width: auto;
+		min-width: initial !important;
+		float: right !important;
+		margin-right: 10px;
+	}  
+}
+/*End - JoomConnect User Widget Media Queries*/
+/* Joomconnect User Widget module css ends*/
+
+
+/* Login layout*/
+#jc_login_form #username-lbl, #jc_login_form #password-lbl{
+float: none;
+}
+
+.pos-top .uwc-code-d2.uwc-pos-right{
+	float:right !important;
+	min-width: 47%;
+}
+.pos-top .uwc-code-d2.uwc-pos-right .jc_horizontal_form form.login{
+	min-width:352px;
+}
+.pos-top .uwc-pos-right .jc_logout_form{
+	float:left;
+	text-align:left;
+}
+.pos-top .uwc-pos-right .jc_logout_form .jc_account{
+	border: 1px solid #FFFFFF;
+    float: left;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 4px;
+	margin-right:10px;
+
+}
+.pos-top .uwc-pos-right .jc_logout_form input.button,
+.pos-top .uwc-pos-right #jcloginSupport input.button{
+	border: 1px solid #FFFFFF;
+    float: left;
+    font-size: 11px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+
+}
+.pos-top .uwc-pos-right .jc_support_link{
+	float: right;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+
+.djcuwc-panel form#frmLogin .button, 
+.djcuwc-panel form#login .button, 
+.djcuwc-panel form#login .jc_account, 
+.djcuwc-panel .button {
+    background: url("images/login-button.png") repeat-x scroll center bottom rgba(0, 0, 0, 0) !important;
+    cursor: pointer;
+    font-size: 11px;
+	color:#fff;
+	border: 1px solid #FFFFFF;
+	padding:0 20px !important;
+	border-radius:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	height: 24px !important;
+}
+.djcuwc-panel form#login .jc_account{
+	height:22px !important;
+}	
+.djcuwc-panel form#frmLogin .button, 
+.djcuwc-panel form#login .button, 
+.djcuwc-panel .button {
+		padding:0px 20px !important;
+}
+
+.pos-left .jc_account,
+.pos-right .jc_account{
+	width:150px;
+	text-align:center !important;
+	margin-bottom: 5px;
+}
+.pos-left .jc_support_link,
+.pos-right .jc_support_link{
+margin:5px 0;
+}
+
+.pos-left  .jc_support_link,
+.pos-left  .jc_greeting,
+.pos-left  .uwc-pos-bottom{
+	text-align:left;
+}
+.djcuwc-panel .submit-button .button{
+	padding: 2px 5px;
+} 
+.djcuwc-panel form#frmLogin .button:hover, 
+.djcuwc-panel form#login .button:hover, 
+.djcuwc-panel form#login .jc_account:hover, 
+.djcuwc-panel .button:hover {
+    background: url("images/login-button-hover.png") repeat-x scroll center bottom rgba(0, 0, 0, 0) !important;
+}
+
+.djcuw-content form,
+form#jcUserWidgetSupport{
+	margin:0;
+	float:left;
+}
+
+form .dfpfa li{
+	list-style:none !important;
+}
+
+.pos-left .uwc-code-d2.uwc-pos-bottom{
+clear:both;
+}
+
+ul.qtkt_row{
+list-style:none !important;
+margin: 0;
+}
+.djcuwc.pos-top .uwc-code-d2.uwc-pos-right #jc_horizontal_form .submit-button{
+	clear: right;
+    float: left;
+}
+.jc-login-links ul{
+margin-left:0 !important;
+}
+.jc_horizontal_form input.jc_username,
+.jc_horizontal_form input.jc_password{
+padding:2px 0 !important;
+text-indent:5px;
+max-width: 180px;
+width:145px;
+height: 20px !important;
+border:none;
+color:#fff;
+background: url("images/login-bg.png") repeat-x scroll center bottom rgba(0, 0, 0, 0) !important;
+}
+.jc_logout_form .jc_account{
+max-width:165px;
+text-align:center;
+}
+.pos-right .trigger-m img{
+	cursor:pointer;
+}
+.pos-left .trigger-m img{
+	cursor:pointer;
+}
+
+#jc_xls_chkbox{
+	margin-bottom:10px !important;
+}
+.dfpfa li p a {
+	display: inline-block !important;
+	vertical-align: inherit;
+}
+.quick_tkt_container_div input#tktsbtn{
+	margin-top:10px;
+}
+@media only screen and (max-width:768px) {
+	#rt-drawer .rt-block {
+		margin: 0;
+		padding: 0;
+	}
+	body .djcuwc-panel div.djcuw-content{
+		max-width:100% !important;
+		width: 100% !important;
+	}
+	div.djcuwc ul.djcuw-menu li{
+		max-width:30% !important;
+		min-width:27% !important;
+	}
+	div.djcuwc ul.djcuw-menu li span {
+		font-size: 9px !important;
+	}
+	.pos-top .uwc-code-d2.uwc-pos-right {
+		max-width: 50% !important;
+		min-width: 50% !important;
+		width: auto !important;
+	}
+	body .jc_horizontal_form input.jc_username, 
+	body .jc_horizontal_form input.jc_password{
+		width:70px;
+	}
+	.pos-top .uwc-code-d2.uwc-pos-right .jc_horizontal_form form.login{
+		min-width:auto !important;
+	}
+	.gf-menu-toggle {
+		z-index:99999 !important;
+	}
+}
+@media only screen and (max-width:506px) {
+	body .djcuwc-wrapper,
+	body .djcuwc-panel{
+		height:190px !important;
+	}
+	body .uwc-code-d1.uwc-pos-right, 
+	body .uwc-code-d2.uwc-pos-right{
+		width:100% !important;
+	}
+	body .pos-top .uwc-code-d2.uwc-pos-right,
+	body .uwc-pos-right .jc_horizontal_form{
+		float:left !important;
+	}
+	body .pos-top .uwc-code-d2.uwc-pos-right .jc_horizontal_form form.login{
+		min-width:300px !important;
+	}
+}

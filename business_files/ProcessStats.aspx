@@ -1,0 +1,1 @@
+document.cookie = 'vv_session_id=jkMg55suUmorWuJThBpl4jBEYvvOCxouv4W4TtP4cJZX9C; expires=Tue, 27 Feb 2018 10:28:48 GMT; path=/';
